@@ -1,0 +1,6 @@
+1. import cv2 : cv2 모듈(라이브러리)를 불러온다
+
+2. cv2.imread() : 이미지를 불러온다 (로드)
+    ㄴ cv2.IMREAD_COLOR : 컬러 이미지를 불러옴
+       cv2.IMREAD_GRAYSCALE : 회색조 모드에서 이미지를 불러옴
+       cv2.IMREAD_UNCHANGED : 알파채널을 포함하여 이미지 로드
