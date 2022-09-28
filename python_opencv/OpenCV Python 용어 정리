@@ -4,3 +4,10 @@
     ㄴ cv2.IMREAD_COLOR : 컬러 이미지를 불러옴
        cv2.IMREAD_GRAYSCALE : 회색조 모드에서 이미지를 불러옴
        cv2.IMREAD_UNCHANGED : 알파채널을 포함하여 이미지 로드
+
+3. cv2.imshow() : 이미지를 보여줌
+4. cv2.waitkey() : 키가 누릴 때까지 기다림
+5. cv2.destroyALLWindows() : 보여줬던 이미지창 지움
+
+6. cv2.imwrite() : 이미지 데이터를 저장
+    ㄴ 지정된 경로에 기록되었으면 True 반환
