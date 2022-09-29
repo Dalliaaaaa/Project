@@ -16,5 +16,14 @@
     ㄴ 인덱스 0 : 높이 
        인덱스 1 : 너비
        
-8. cv2.resize(src, dsize[], dst[], fx[], fy[], interpolation[]) : opencv의 크기 조정     
-
+8. cv2.resize(src (or img), dsize[], dst[], fx[], fy[], interpolation[]) : opencv의 크기 조정     
+    ㄴ src : 이미지 경로
+       dsize : (=dim =dimensions) 가로, 세로
+       fx : 가로 사이즈의 배수 ex) 2배면 2, 반이면 0.5
+       fy : 세로 사이즈의 배수
+       interpolation : 보간법
+       
+       * 자주 사용하는 보간법 *
+       
+       사이즈를 축소할 경우 : cv2.INTER_AREA
+       사이즈를 확대할 경우 : cv2.INTER_CUBIC, cv2.INTER_LINAR
