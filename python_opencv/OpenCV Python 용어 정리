@@ -27,3 +27,12 @@
        
        사이즈를 축소할 경우 : cv2.INTER_AREA
        사이즈를 확대할 경우 : cv2.INTER_CUBIC, cv2.INTER_LINAR
+
+9. edges = cv2.Canny('/path/to/img', minVal,cmaxVal, apertureSize, L2gradient) : 이미지에서 객체의 경계를 찾는 이미지 처리 기술
+    ㄴ /path/to/img : 이미지 파일경로
+       minVal : 최소 강도 기울기
+       maxVal : 최대 강도 기울기
+       조리개 크기
+       L2gradient (기본값 : false) : true인 경우 Canny()는 훨씬 더 많은 계산 비용이 드는 방정식을 사용하여 가장자리를 감지하므로 리소스 비용으로 더 많은 정확도를 제공
+       
+       
