@@ -35,4 +35,5 @@
        조리개 크기
        L2gradient (기본값 : false) : true인 경우 Canny()는 훨씬 더 많은 계산 비용이 드는 방정식을 사용하여 가장자리를 감지하므로 리소스 비용으로 더 많은 정확도를 제공
        
-       
+10. dst = cv2.GaussianBlur(src, ksize, sigmaX[], dst[], sigmaY[], borderType=BORDER_DEFAULT) : Gaussian Smoothing 적용
+    
